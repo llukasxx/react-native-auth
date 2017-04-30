@@ -7,7 +7,6 @@ const Header = (props) => {
   return (
     <View style={viewStyle}>
       <Text style={textStyle}>{headerText}</Text>
-      <Text style={textStyle}>czesc</Text>
     </View>
   );
 };
@@ -33,4 +32,4 @@ const styles = {
   }
 };
 
-export default Header;
+export { Header };
